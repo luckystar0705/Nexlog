@@ -201,7 +201,7 @@ zig build bench
 
 Configure nexlog to fit your specific needs:
 
-```zig
+
 var builder = nexlog.LogBuilder.init();
 try builder
     .setMinLevel(.debug)
