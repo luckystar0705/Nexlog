@@ -199,7 +199,7 @@ zig build bench
 
 ## Configuration
 
-
+Configure nexlog to fit your specific needs:
 
 ```zig
 var builder = nexlog.LogBuilder.init();
